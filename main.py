@@ -5,7 +5,8 @@ token = os.environ.get("TOKEN")
 
 bot = interactions.Client(token=token)
 
-#your server id here server_id = 
+#your server id here 
+server_id = 
 
 @bot.event
 async def on_ready():
